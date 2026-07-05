@@ -1,0 +1,38 @@
+enterprise-data-governance-framework/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+│
+├── config/
+│   └── config.py
+│
+├── data/
+│   ├── raw/
+│   ├── cleaned/
+│   ├── reports/
+│   └── metadata/
+│
+├── datasets/
+│
+├── notebooks/
+│
+├── python/
+│   ├── generate_dataset.py
+│   ├── data_profile.py
+│   ├── validation.py
+│   ├── metadata_catalog.py
+│   └── report_generator.py
+│
+├── sql/
+│   └── validation_queries.sql
+│
+├── powerbi/
+│
+├── expectations/
+│
+├── utils/
+│   └── logger.py
+│
+└── images/
